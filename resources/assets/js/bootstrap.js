@@ -9,8 +9,8 @@ window._ = require('lodash');
 
 try {
     window.$ = window.jQuery = require('jquery');
-
-    require('bootstrap-sass');
+    // I use BULMA framework CSS so i do not need this bootstrap-sass
+    // require('bootstrap-sass');
 } catch (e) {}
 
 /**
